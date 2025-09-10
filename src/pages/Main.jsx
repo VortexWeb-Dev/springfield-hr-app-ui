@@ -215,6 +215,7 @@ const people = [
     insuranceCard: "INS-EP-001",
     hiredBy: "Natalia Panaskina",
     reraNum: "54321",
+    team: "Team A",
   },
   {
     id: 12,
@@ -261,6 +262,7 @@ const people = [
     insuranceCard: "INS-NP-001",
     hiredBy: "Director",
     reraNum: "N/A",
+    team: "Team B",
   },
   {
     id: 23,
@@ -287,6 +289,7 @@ const people = [
       },
     ],
     lateShift: false,
+    team: "Team A",
   },
   {
     id: 30,
@@ -310,6 +313,7 @@ const people = [
       },
     ],
     lateShift: true,
+    team: "Team B",
   },
   {
     id: 35,
@@ -356,6 +360,7 @@ const people = [
       },
     ],
     lateShift: true,
+    team: "Team A",
   },
   {
     id: 55,
@@ -379,6 +384,7 @@ const people = [
       },
     ],
     lateShift: false,
+    team: "Team B",
   },
   {
     id: 62,
@@ -402,6 +408,7 @@ const people = [
       },
     ],
     lateShift: false,
+    team: "Team C",
   },
 ];
 
@@ -2249,6 +2256,9 @@ function Directory({ role, people, onEdit }) {
                   </div>
                   <div className="text-xs text-gray-400 mt-1">
                     DOJ: {p.hireDate}
+                  </div>
+                  <div className="text-xs text-gray-400 mt-1">
+                    Team: {p?.team}
                   </div>
                 </div>
               </div>
