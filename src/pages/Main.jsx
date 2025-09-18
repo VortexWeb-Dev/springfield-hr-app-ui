@@ -569,28 +569,19 @@ const NAV_AGENT = [
   { key: "requests", label: "My Requests", icon: <ListChecks size={18} /> },
   { key: "leave", label: "Leave Application", icon: <Clock size={18} /> },
   {
-    key: "training",
-    label: "My Training Path",
-    icon: <GraduationCap size={18} />,
-  },
-  {
     key: "attendance",
     label: "My Attendance",
     icon: <CalendarCheck size={18} />,
   },
-  { key: "academy", label: "Academy", icon: <BookOpen size={18} /> },
   {
-    key: "documents",
-    label: "Docs Center",
-    icon: <FileSpreadsheet size={18} />,
+    key: "training",
+    label: "My Training Path",
+    icon: <GraduationCap size={18} />,
   },
+  { key: "academy", label: "Academy", icon: <BookOpen size={18} /> },
 ];
 
 const NAV_HR = [
-  { key: "salary", label: "Salary Certificate", icon: <FileText size={18} /> },
-  { key: "noc", label: "NOC Certificate", icon: <FileText size={18} /> },
-  { key: "requests", label: "My Requests", icon: <ListChecks size={18} /> },
-  { key: "leave", label: "Leave Application", icon: <Clock size={18} /> },
   { key: "vacations", label: "Vacation List", icon: <Plane size={18} /> },
   { key: "birthdays", label: "Birthdays & Anniv.", icon: <Gift size={18} /> },
   {
@@ -613,7 +604,6 @@ const NAV_HR = [
     icon: <CircleDot size={18} />,
   },
   { key: "directory", label: "Directory", icon: <Search size={18} /> },
-  { key: "settings", label: "Settings", icon: <Settings size={18} /> },
 ];
 
 /*************************************
